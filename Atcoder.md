@@ -4,6 +4,7 @@ $$
 \frac{\sum{w_ip_i}}{\sum{w_i}}\ge x \\
 \sum{w_i(p_i-x)}\ge 0 \\
 $$
+
 ```python
 from collections import *
 from itertools import *
@@ -41,8 +42,8 @@ def solve():
 
 
 solve()
-
 ```
+
 [D - 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)
 
 $$
@@ -146,6 +147,7 @@ solve()
 显然我们不能直接迭代移动回合  
 由于每次我们去往的地方是固定的，不妨考虑倍增  
 记录对于$i$位置，他第$p$次移动的地方  
+
 $$
 dp[0][i]=
 \begin{cases}
@@ -256,6 +258,7 @@ solve()
 [E - Smooth Subsequence](https://atcoder.jp/contests/abc339/tasks/abc339_e)
 
 从数组A中选出最长子序列，此子序列满足相邻两项的差的绝对值不超过D  
+
 <h6>朴素做法</h6>
 
 $$
@@ -302,6 +305,7 @@ dp_x:以数字x为结尾的最大子序列长度  \\
 它会对区间[x-d,x+d]的每一个长度+1\\
 对于这样的区间操作，我们使用线段树维护即可\\
 $$
+
 ```cpp
 int op(int l,int r){
     return std::max(l,r);
