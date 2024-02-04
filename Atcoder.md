@@ -1,4 +1,5 @@
 [D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)
+
 $$
 \frac{\sum{w_ip_i}}{\sum{w_i}}\ge x \\
 \sum{w_i(p_i-x)}\ge 0 \\
@@ -43,6 +44,7 @@ solve()
 
 ```
 [D - 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)
+
 $$
 \frac{\sum{c_i}}{\sum{t_i}}\le x \\
 \sum{c_i-xt_i}\le0 \\
@@ -129,6 +131,7 @@ solve()
 
 ```
 [D - Gathering Children](https://atcoder.jp/contests/abc136/tasks/abc136_d)
+
 给定字符串$S$,最初每个单元格都有一个人  
 若$S_i=R$，则说明$i$位置的人走到右边的格子，  
 若$S_i=L$，则说明$i$位置的人走到左边的格子。
@@ -251,6 +254,7 @@ solve()
 ```
 
 [E - Smooth Subsequence](https://atcoder.jp/contests/abc339/tasks/abc339_e)
+
 从数组A中选出最长子序列，此子序列满足相邻两项的差的绝对值不超过D  
 <h6>朴素做法</h6>
 
