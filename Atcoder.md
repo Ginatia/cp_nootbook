@@ -265,7 +265,7 @@ solve()
 $$
 dp_i:以下标i为结尾的最长子序列  \\
 更新时遍历[0,i),若|a_i-a_j|\le D  \\
-则dp_i=max(dp_i,dp_j+1)
+则dp_i=max(dp_i,dp_j+1) \\
 $$
 
 ```cpp
