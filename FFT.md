@@ -188,7 +188,7 @@ struct NTT
             for (int k = n >> 1; k > (i ^= k); k >>= 1)
                 ;
             if (i > j)
-                swap(as[i], as[j]);
+                std::swap(as[i], as[j]);
         }
 
         for (int i = 1; i < n; i <<= 1)
